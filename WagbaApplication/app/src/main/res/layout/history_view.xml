@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="15dp"
+        app:cardElevation="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/orderHistoryNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="24sp"
+
+                android:text="Order Number #13" />
+
+            <TextView
+                android:id="@+id/orderHistoryStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#4CAF50"
+                android:text="Delivered" />
+
+            <TextView
+                android:id="@+id/orderHistoryDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#A3A0A0"
+                android:text="12-10-2022 12:08:56" />
+
+            <TextView
+                android:id="@+id/orderHistoryGate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#A3A0A0"
+                android:text="Gate 3" />
+
+            <TextView
+                android:id="@+id/orderHistoryTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#A3A0A0"
+                android:text="12:00 pm" />
+
+            <TextView
+                android:id="@+id/orderHistoryPaymentMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#A3A0A0"
+                android:text="Payment with cash" />
+
+            <TextView
+                android:id="@+id/orderHistoryTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#A3A0A0"
+                android:text="EGP 345" />
+
+            <Button
+                android:id="@+id/trackOrderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_button"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:drawableLeft="@drawable/ic_baseline_delivery_dining_24"
+                android:paddingLeft="90dp"
+                android:paddingRight="80dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/white"
+                android:text="Track Order" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

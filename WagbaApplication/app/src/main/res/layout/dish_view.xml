@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="15dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/dishImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/restaurant" />
+
+            <ImageButton
+                android:id="@+id/heartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dishImage"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_baseline_favorite2_24" />
+
+            <TextView
+                android:id="@+id/dishName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:text="Dish A"
+                android:drawableLeft="@drawable/ic_baseline_fastfood_24"
+                android:drawablePadding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FFFF3D00"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/heartButton"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/dishAvailability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:layout_toRightOf="@+id/dishAvailability2"
+                android:text="Yes"
+                android:drawablePadding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FF3D00"
+                android:layout_below="@+id/dishName"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/dishAvailability2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:layout_marginLeft="100dp"
+                android:text="Availability: "
+                android:drawableLeft="@drawable/ic_baseline_check_circle_24"
+                android:drawablePadding="5dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#FF3D00"
+                android:layout_below="@+id/dishName"
+                android:layout_marginBottom="10dp"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

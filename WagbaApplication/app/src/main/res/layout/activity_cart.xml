@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrder"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/cartTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF3D00"
+        android:paddingLeft="116dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="8dp"
+        android:drawableLeft="@drawable/cart"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/cartTitle"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/noItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cartTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:visibility="invisible"
+        android:textColor="#AEACAC"
+        android:textSize="45sp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:text="@string/noItems" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cartTitle"
+        android:layout_above="@+id/proceedToCheckout"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/proceedToCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/login_button"
+        android:drawableLeft="@drawable/proceed_checkout"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:text="@string/proceedCheckout"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

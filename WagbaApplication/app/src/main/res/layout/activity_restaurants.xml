@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white"
+        tools:context=".Restaurants">
+
+        <EditText
+            android:id="@+id/searchRestaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_frame2"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:hint="@string/searchR"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:textColor="#FF3D00"
+            android:textColorHint="#FF3D00" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/searchRestaurant" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/ic_baseline_person_orange_24"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/profile"
+            android:textColor="#FFFF3D00"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/cartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/ic_baseline_shopping_cart_24"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/cart"
+            android:textColor="#FFFF3D00"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/orderHistoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/white"
+            android:drawableTop="@drawable/ic_baseline_history_24"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="@string/orderHistory"
+            android:textColor="#FFFF3D00"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/favouritesButton"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/ic_baseline_favorite_24"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="@string/favourites"
+            android:textColor="#FFFF3D00"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">WagbaApplication</string>
+    <string name="Welcome">Welcome to Wagba</string>
+    <string name="enjoy">Enjoy Eating</string>
+    <string name="delicious">All the delicious food on your phone</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="Login">Login</string>
+    <string name="register">Registration</string>
+    <string name="hintEmail">Enter your email</string>
+    <string name="hintPassword">Enter your password</string>
+    <string name="confirmPass">Confirm your password</string>
+    <string name="userName">Enter your name</string>
+    <string name="phoneNumber">Enter your phone number</string>
+    <string name="ForgotPass">Forgot password?</string>
+    <string name="noAccount">Do not have an account?</string>
+    <string name="accountExist">Already have an account?</string>
+    <string name="rememberMe">Remember me</string>
+
+    <string name="searchR">Search restaurant</string>
+    <string name="searchD">Search dish</string>
+
+    <string name="cart">Cart</string>
+    <string name="help">Help</string>
+    <string name="profile">Profile</string>
+    <string name="orderHistory">History</string>
+    <string name="favourites">Favourites</string>
+
+
+    <string name="card">Card number</string>
+    <string name="date">Expiration date</string>
+    <string name="cvv">CVV</string>
+    <string name="payCard">Pay with card</string>
+    <string name="payCash">Pay with cash</string>
+    <string name="paymentTitle">Shipment Details</string>
+    <string name="gate">Gate number</string>
+    <string name="deliveryTime">Delivery time</string>
+    <string-array name="gate">
+        <item>Gate 3</item>
+        <item>Gate 4</item>
+    </string-array>
+
+    <string-array name="timeDelivery">
+        <item>12:00 pm</item>
+        <item>3:00 pm</item>
+    </string-array>
+    <string name="confirm">Confirm Order</string>
+
+    <string name="subTotal">Subtotal</string>
+    <string name="deliveryFee">Delivery fee</string>
+    <string name="totalAmount">Total amount</string>
+
+
+    <string name="trackingTitle">Track Your Order</string>
+    <string name="time">Delivered at</string>
+    <string name="orderNumber">Order number</string>
+    <string name="orderPlaced">Order Placed</string>
+    <string name="orderPlacedDescription">We have received your order</string>
+    <string name="orderConfirmed">Order Confirmed</string>
+    <string name="orderConfirmedDescription">Your order has been confirmed</string>
+    <string name="orderProcessed">Order Processed</string>
+    <string name="orderProcessedDescription">We are preparing your order</string>
+    <string name="orderDelivered">Order Delivered</string>
+    <string name="orderDeliveredDescription">We have delivered your order</string>
+
+    <string name="cartTitle">My Cart</string>
+    <string name="proceedCheckout">proceed To Checkout</string>
+    <string name="price">Item Price</string>
+    <string name="quantity">Item Quantity</string>
+    <string name="noItems">NO ITEMS</string>
+
+    <string name="history">Orders History</string>
+    <string name="favouriteTitle">My Favourite Dishes</string>
+
+    <string name="orderContentTitle">Order Details</string>
+    <string name="dishesListTitle">Restaurant Menu</string>
+
+    <string name="editProfile">Edit</string>
+    <string name="updateProfile">Update Profile</string>
+    <string name="save">Save Changes</string>
+</resources>
