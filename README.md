@@ -10,7 +10,6 @@ points Gate 3 and 4 and two delivery times 12:00 noon and 3:00 pm for faculty of
 campus. Customers who need a delivery at 12:00 noon must place an order before 10:00 am.
 Customers who need a delivery at 3:00 pm must order before 1:00 pm.
 App Description:
-In this project, I developed a food delivery App. The minimum app requirements are:
 - login page with sign up option using firebase authenticate. There should be a test account
 credentials with login information submitted with the app for testing
 - List of available restaurants that contains at least 10 restaurants. The list should be
